@@ -1,0 +1,12 @@
+{
+  "name": "passport-workshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Anis Mell",
+  "license": "MIT",
+  "scripts": {
+    "front": "cd client && npm start",
+    "back": "cd backend && npm start",
+    "start": "concurrently \" npm run front \" \"npm run back\""
+  }
+}
